@@ -1,0 +1,193 @@
+body{
+    font-family: 'Old Standard TT', serif;
+    font-family: 'Poppins', sans-serif;
+    margin:  0;
+    padding: 0;
+}
+h1{
+    font-size: 55px;
+}
+
+h2{
+    font-size: 40px;
+}
+h3{
+    font-size: 30px;
+    font-weight: 700;
+}
+h4{
+    font-size: 25px;
+}
+
+
+.top-banner{
+    width: 100%;   
+}
+.half-width{
+    width: 46%;
+    float: left;
+    padding-top: 40px;
+    padding-left: 3%;
+}
+
+.half-width img{
+    width: 100%;
+}
+
+.headline{
+    border-left: 5px solid ;
+    border-image: linear-gradient(rgb(201, 81, 68), tomato) 30;
+    border-radius: 7px;
+    padding-left: 15px;
+    line-height: 1.5;
+    
+}
+
+.highlighted-txt{
+    color: orangered;
+}
+.btn-link{
+    background-image: linear-gradient(orange, orangered);
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.top-banner p{
+    padding-bottom: 20px;
+}
+
+.small-txt small{
+    padding-top: 50px;
+}
+
+
+.my-mission{
+    float: left;
+    width: 100%;
+    padding-bottom: 90px;
+}
+.my-mission h2{
+    text-align: center;
+    color: rgb(2, 2, 27);
+    
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+    
+}
+.flex-container > .missions{
+    margin: 10px;
+    padding: 25px 20px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.mission-list{
+    width: 80%;
+    margin:  0 auto;
+}
+
+.missions img{
+    width: 35%;
+}
+
+#missions{
+    background-color: rgb(192, 252, 252);
+}
+#vissions{
+    background-color: rgb(250, 190, 167);
+}
+#goals{
+    background-color: rgb(250, 250, 169);
+}
+
+/* skills */
+.skill-section{
+    width: 100%;
+    padding-top: 50px;
+}
+.develop{
+    padding-bottom: 100px;
+}
+
+.community{
+    padding-bottom: 100px;
+}
+.all-skills{
+    width: 80%;
+    padding-left: 20px;
+}
+
+.skill-img{
+    width: 100%;
+}
+
+.skill-txt{
+    padding-left: 60px;
+    padding-right: 18px;
+}
+
+.skill-txt p{
+    padding-bottom: 30px;    
+}
+
+
+/* team */
+.our-team{
+    float: left;
+    width: 100%;
+    padding-bottom: 90px;
+    
+}
+.our-team h2{
+    text-align: center;
+    color: rgb(2, 2, 27);
+    
+}
+.flex-container > .member{
+    margin: 10px;
+    padding: 25px 20px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.member img{
+    width: 70%;
+}
+#member1{
+    background-color: lightsalmon;
+}
+#member2{
+    background-color: lightpink;
+}
+#member3{
+    background-color: rgb(255, 160, 72);
+}
+#member4{
+    background-color: rgb(253, 153, 106);
+}
+#member1:hover{
+    background-color: #FF7659;
+    color: #aa1c00;
+}
+#member2:hover{
+    background-color: rgb(252, 139, 156);
+    color: rgb(248, 52, 81);
+    
+}
+
+#member3:hover{
+    background-color: rgb(255, 142, 37);
+    color: rgb(109, 74, 0);
+    
+}
+
+#member4:hover{
+    background-color: rgb(255, 108, 41);
+    color: rgb(90, 26, 0);
+    
+}
+
