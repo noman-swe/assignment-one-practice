@@ -61,7 +61,7 @@ h4{
     padding-top: 50px;
 }
 
-
+/* Missions */
 .my-mission{
     float: left;
     width: 100%;
@@ -72,7 +72,9 @@ h4{
     color: rgb(2, 2, 27);
     
 }
-
+.missions{
+    width: 33%;
+}
 .flex-container{
     display: flex;
     justify-content: center;
@@ -93,7 +95,9 @@ h4{
 .missions img{
     width: 35%;
 }
-
+/* .missions p{
+    text-align: inherit;
+} */
 #missions{
     background-color: rgb(192, 252, 252);
 }
@@ -125,11 +129,23 @@ h4{
     width: 100%;
 }
 
-.skill-txt{
+.dev-skill-txt{
     padding-left: 60px;
     padding-right: 18px;
+    
+}
+.dev-skill-txt p{
+    padding-bottom: 20px;
 }
 
+.commu-skill-txt{
+    padding-right: 60px;
+    padding-left: 0px;
+}
+
+.commu-skill-txt p{
+    padding-bottom: 20px;
+}
 .skill-txt p{
     padding-bottom: 30px;    
 }
@@ -149,14 +165,24 @@ h4{
     
 }
 .flex-container > .member{
-    margin: 10px;
     padding: 25px 20px;
     margin: 10px;
     border-radius: 20px;
+    line-height: 1;
 }
 
 .member img{
     width: 70%;
+    margin: 0 auto;
+}
+.member h4 h5{
+    padding: 0px;
+}
+.member p{
+    text-align: inherit;
+}
+h5{
+    font-size: 17px;
 }
 #member1{
     background-color: lightsalmon;
@@ -176,22 +202,16 @@ h4{
 }
 #member2:hover{
     background-color: rgb(252, 139, 156);
-    color: rgb(248, 52, 81);
-    
+    color: rgb(248, 52, 81); 
 }
-
 #member3:hover{
     background-color: rgb(255, 142, 37);
-    color: rgb(109, 74, 0);
-    
+    color: rgb(109, 74, 0); 
 }
-
 #member4:hover{
     background-color: rgb(255, 108, 41);
-    color: rgb(90, 26, 0);
-    
+    color: rgb(90, 26, 0);  
 }
-
 footer {
     margin-top: 10px;
     width: 100%;
